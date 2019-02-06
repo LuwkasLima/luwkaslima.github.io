@@ -120,7 +120,7 @@
         margin: 0 0 20px;
       }
       header {
-        height: 50px;
+        height: 95px;
         width: 100%;
         position: absolute;
         z-index: 5;
@@ -140,8 +140,10 @@
         font-weight: 700;
         letter-spacing: 1px;
       }
-      header p {
-        margin: 0;
+      header .logo img {
+        width: 139px;
+        height: auto;
+        transition: all .3s ease;
       }
       header.show {
         transform: translateY(0);
@@ -284,6 +286,7 @@
       /* Intro */
       #intro {
         background-color: #221F6E;
+        background-image: url("https://www.sanpellegrino.com/media//usa/home-page/Sanpellegrino_Essenza_Header_D_USA.jpg");
         display: flex;
         justify-content: center;
         align-items: center;
@@ -291,6 +294,10 @@
         height: 100%;
         box-sizing: border-box;
         padding: 30px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
       }
       #intro-text {
         position: relative;
@@ -698,8 +705,8 @@
         <amp-carousel layout="fill" type="slides" on="slideChange:AMP.setState({selected: {slide: event.index}})" [slide]="selected.slide">
           <div id="intro" class="slide">
             <div id="intro-text">
-              <amp-bodymovin-animation loop="false" renderer="svg" layout="fixed" width="326" height="185" src="https://lens-templates.firebaseapp.com/assets/template-pairings/pasta.json"></amp-bodymovin-animation>
-              <amp-img src="assets/template-pairings/intro.svg" layout="fixed" width="288" height="258" alt=""></amp-img>
+              <!--<amp-bodymovin-animation loop="false" renderer="svg" layout="fixed" width="326" height="185" src="https://lens-templates.firebaseapp.com/assets/template-pairings/pasta.json"></amp-bodymovin-animation>-->
+              <!--<amp-img src="https://www.sanpellegrino.com/media/usa/home-page/Sanpellegrino_Essenza_Header_D_USA.jpg" layout="fixed" width="288" height="258" alt=""></amp-img>-->
             </div>
           </div>
           <div id="explanation" class="slide">
@@ -712,7 +719,7 @@
             <div class="content">
               <div class="group">
                 <div class="image">
-                  <amp-img src="assets/template-pairings/wine-1.jpg" layout="responsive" width="180" height="513" alt="Neptune Soave"></amp-img>
+                  <amp-img src="https://www.sanpellegrino.com/media/usa/home-page/Sanpellegrino_Essenza_Header_D_USA.jpg" layout="responsive" width="180" height="513" alt="Neptune Soave"></amp-img>
                 </div>
                 <div class="right">
                   <div class="copy">
