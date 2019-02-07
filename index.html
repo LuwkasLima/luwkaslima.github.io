@@ -38,6 +38,7 @@
     <link rel="icon" type="image/png" href="assets/template-pairings/icon.png" sizes="32x32">
     <link rel="canonical" href="https://lens-templates.firebaseapp.com/template-pairings.html">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karla:400,700|Playfair+Display:400,700">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Quattrocento:400,700%7CRoboto:300,400">
 
   <!-- Google Lens Markup -->
 <script type="application/ld+json">
@@ -70,7 +71,7 @@
 
       /* General styling */
       body {
-        color: #221F6E;
+        color: #011329;
         font-family: 'Karla', sans-serif;
         font-size: 17px;
         line-height: 22px;
@@ -79,25 +80,24 @@
       h1, .h1 {
         font-size: 27px;
         line-height: 35px;
-        font-family: 'Playfair Display', serif;
+        font-family: Quattrocento, "Times New Roman", sans-serif;
         margin: 0 0 10px;
       }
       h2, .h2 {
         font-size: 21px;
         margin: 0;
-        color: #221F6E;
-        font-family: 'Playfair Display', serif;
+        color: #011329;
       }
       h3, .h3 {
         font-size: 19px;
         margin: 0;
         color: #011329;
-        font-family: Roboto, sans-serif;
+        font-family: Roboto;
       }
       h4, .h4 {
         font-size: 17px;
         margin: 0;
-        color: #221F6E;
+        color: #011329;
         font-weight: 700;
         font-family: 'Karla', sans-serif;
       }
@@ -172,6 +172,9 @@
         padding-bottom: 1px;
         background-color: #fff;
       }
+    section.bottom-content{
+        padding-top: 5px;
+        }
       sup {
         font-size: 60%;
         line-height: 0;
@@ -200,13 +203,12 @@
         height: 42px;
         width: 100%;
         border: none;
-        color: #FFDEAC;
-        background-color: #221F6E;
+        color: #ffffff;
+        background-color: #75ccdf;
         font-family: inherit;
         font-size: 18px;
         font-weight: 700;
         cursor: pointer;
-        border-radius: 21px;
         -webkit-appearance: none;
         text-decoration: none;
       }
@@ -517,11 +519,9 @@
         justify-content: center;
         align-items: flex-end;
         text-align: center;
-        font-family: 'Playfair Display', sans-serif;
         font-size: 19px;
         font-weight: 700;
         position: relative;
-        border-radius: 5px;
         overflow: hidden;
       }
       .explore-list li {
@@ -604,6 +604,11 @@
         display: none;
       }
 
+    /* Other Content */
+        #wrapper-summary{
+            padding-bottom: 50px;
+        }
+        
       /* Footer */
       footer {
         padding: 0 0 45px;
@@ -885,16 +890,17 @@
         </amp-carousel>
       </section>
 
-      <section id="bottom-content">
+      <section id="bottom-content" style="padding-top: 5px">
         <div class="container">
-                <center>
+                
+            <p><center>
                 <img src="https://luwkaslima.github.io/ezgif.com-gif-maker.gif">
-                <h3>A strong aroma of fine red fruits, accompanied by our signature gentle bubbles and characterized by intense fruit flavored notes. Pair with more flavorful dishes such as roasted vegetables, premium red meats, rich sandwiches, and chocolate desserts.
-Sleek Can 11.15 Fl Oz</h3>    
+                    <p>Sleek Can 11.15 Fl Oz</p>
+                <div id="wrapper-summary"><p>A strong aroma of fine red fruits, accompanied by our signature gentle bubbles and characterized by intense fruit flavored notes. Pair with more flavorful dishes such as roasted vegetables, premium red meats, rich sandwiches, and chocolate desserts.</p></div>    
                 </center>
-            <p>
-            <h2>Amazing with the following meals:</h2>
+                
             </p>
+            <h2>AMAZING WITH:</h2>
           <ul class="explore-list">
             <li>
               <a>
@@ -927,7 +933,7 @@ Sleek Can 11.15 Fl Oz</h3>
       <section>
         <div class="container">
           <div id="recommendations-header">
-            <h2>Check out other flavours:</h2>
+            <h2>OTHER FLAVOURS:</h2>
           </div>
           <ul id="recommendations" [class]="recommendationsShow ? 'show' : 'hide'" class="hide">
             <li class="recommendation">
