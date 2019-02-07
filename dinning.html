@@ -1,1 +1,998 @@
+<!--
+  Copyright 2019 Google LLC
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<!doctype html>
+<html amp lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
+    <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
+    <script async custom-element="amp-bind" src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"></script>
+    <script async custom-element="amp-bodymovin-animation" src="https://cdn.ampproject.org/v0/amp-bodymovin-animation-0.1.js"></script>
+
+    <title>S. Pellegrino Essenza Lens Experience</title>
+
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <meta name="description" content="San Pellegrino Essenza Pomegranate Experience.">
+    <meta name="application-name" content="Essenza Pomegranate Experience">
+    <meta property="og:image" content="https://luwkaslima.github.io/ezgif.com-gif-maker.gif">
+    <meta property="og:image:width" content="2000">
+    <meta property="og:image:height" content="1333">
+
+    <link rel="icon" type="image/png" href="https://www.sanpellegrino.com/favicon-32x32.png?v=1" sizes="32x32">
+    <link rel="canonical" href="https://luwkaslima.github.io/">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karla:400,700|Playfair+Display:400,700">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Quattrocento:400,700%7CRoboto:300,400">
+
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+
+    <style amp-custom>
+
+      /* General styling */
+      body {
+        color: #011329;
+        font-family: 'Karla', sans-serif;
+        font-size: 17px;
+        line-height: 22px;
+        background-color: #011329;
+      }
+      h1, .h1 {
+        font-size: 27px;
+        line-height: 35px;
+        margin: 0 0 10px;
+      }
+      h2, .h2 {
+        font-size: 21px;
+        margin: 0;
+        color: #011329;
+      }
+      h3, .h3 {
+        font-size: 19px;
+        margin: 0;
+        color: #011329;
+        font-family: Roboto;
+      }
+      h4, .h4 {
+        font-size: 17px;
+        margin: 0;
+        color: #011329;
+        font-weight: 700;
+        font-family: 'Karla', sans-serif;
+      }
+      h5, .h5 {
+        font-size: 15px;
+        margin: 0;
+        color: #221F6E;
+        font-family: 'Karla', sans-serif;
+        font-weight: 700;
+      }
+      h6, .h6 {
+        font-size: 13px;
+        margin: 0;
+        color: #221F6E;
+        font-family: 'Karla', sans-serif;
+        font-weight: 700;
+      }
+      p {
+        margin: 0 0 20px;
+      }
+      header {
+        height: 50px;
+        width: 100%;
+        position: absolute;
+        z-index: 5;
+        background-color: #011329;
+        top: 0;
+        left: 0;
+        transform: translateY(-100%);
+        transition: .3s transform;
+        padding: 0 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        color: #FFDEAC;
+        font-size: 12px;
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: 1px;
+      }
+      header img {
+        width: 139px;
+        height: auto;
+        transition: all .3s ease;
+      }
+        header p {
+            margin: 0 0 0px;
+        }
+      header.show {
+        transform: translateY(0);
+      }
+      header span {
+        font-size: 32px;
+        color: #FA6754;
+        font-family: 'Playfair Display', serif;
+        font-weight: 400;
+          line-height: 1;
+          margin-top: -10px;
+          display: inline-block;
+      }
+      main {
+        max-width: 500px;
+        margin: 0 auto;
+        overflow: hidden;
+      }
+      main section:last-of-type {
+        padding-bottom: 100px;
+      }
+      section {
+        padding-top: 50px;
+        padding-bottom: 1px;
+        background-color: #fff;
+      }
+    section.bottom-content{
+        padding-top: 5px;
+        }
+      sup {
+        font-size: 60%;
+        line-height: 0;
+      }
+      b, strong {
+        font-weight: 700;
+      }
+      a {
+        color: #FA6754;
+      }
+      .container {
+        padding: 0 30px;
+      }
+        .container img{
+        width: 306px; 
+        height: 342px; 
+        position: center;
+        }
+      .button,
+      input[type="submit"] {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+        padding: 0 40px;
+        height: 42px;
+        width: 100%;
+        border: none;
+        color: #ffffff;
+        background-color: #75ccdf;
+        font-family: inherit;
+        font-size: 18px;
+        font-weight: 700;
+        cursor: pointer;
+        -webkit-appearance: none;
+        text-decoration: none;
+      }
+      input {
+        height: 42px;
+        padding: 0 20px;
+        box-sizing: border-box;
+        border: none;
+        font-size: 15px;
+      }
+      ::-webkit-input-placeholder {
+        color: #B2B2B2;
+      }
+      ::-moz-placeholder {
+        color: #B2B2B2;
+        opacity: 1;
+      }
+      :-ms-input-placeholder {
+        color: #B2B2B2;
+      }
+      #carousel-indicators li:focus {
+        outline: none;
+      }
+
+      /* Carousel */
+      #carousel {
+        width: 100%;
+        height: calc(100vh - 50px);
+        padding: 0;
+        position: relative;
+      }
+      #carousel .amp-carousel-button {
+        display: none;
+          z-index: -1;
+      }
+      #carousel-indicators {
+        height: 50px;
+        margin-bottom: -50px;
+        background: linear-gradient(to top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.5) 100%);
+        position: relative;
+        z-index: 2;
+        padding: 0;
+        transition: .3s transform;
+      }
+      #carousel-indicators.move-down {
+        transform: translateY(50px);
+      }
+      #carousel-indicators .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+      }
+      #carousel-indicators ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        width: 100%;
+        margin-left: -3px;
+      }
+      #carousel-indicators li {
+        width: 100%;
+        margin: 0 3px;
+        opacity: .5;
+        padding: 20px 0;
+      }
+      #carousel-indicators li span {
+        background-color: #f6f9fe;
+        height: 2px;
+        display: block;
+      }
+      #carousel-indicators li.current {
+        opacity: 1;
+      }
+      amp-carousel .content {
+        position: absolute;
+        z-index: 1;
+      }
+      .slide .content {
+        overflow: hidden;
+      }
+
+      /* Intro */
+      #intro {
+        background-color: #221F6E;
+        background-image: url("https://www.sanpellegrino.com/media/usa/product-range/essenza/dark-morello/S_Pellegrino_Essenza_DarK_Morello%20_Cherry_Pomegranate_Product_Page_768x1365.jpg");
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        padding: 30px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+      }
+      #intro-text {
+        position: relative;
+        width: 306px;
+        height: 342px;
+      }
+      #intro-text amp-img {
+        top: 0;
+        left: 12px;
+        position: absolute;
+        max-width: calc(100% - 24px);
+      }
+      #intro-text amp-bodymovin-animation {
+        position: absolute;
+          bottom: -35px;
+          left: -16px;
+          max-width: 100%;
+      }
+
+      /* Explanation */
+      #explanation {
+        color: #ffffff;
+        background: url(https://lens-templates.firebaseapp.com/assets/template-pairings/fork.jpg) no-repeat right bottom/55% #040205;
+      }
+      #explanation h1 {
+        color: #89c9dd;
+      }
+      #explanation .content {
+        width: 60%;
+        left: 20px;
+        bottom: 60px;
+      }
+      #explanation h1 {
+        opacity: 0;
+        transform: translateX(-50px);
+        transition: .5s .1s opacity, transform .5s .1s;
+      }
+      amp-carousel[slide="1"] #explanation h1 {
+        opacity: 1;
+        transform: translateX(0);
+      }
+      #explanation p {
+        opacity: 0;
+        transform: translateX(-50px);
+        transition: .5s .3s opacity, transform .5s .3s;
+      }
+      amp-carousel[slide="1"] #explanation p {
+        opacity: 1;
+        transform: translateX(0);
+      }
+
+      /* Wine Slides */
+      amp-carousel .wine .content {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+      }
+      .wine .group {
+        width: 100%;
+        padding: 100px 30px 0;
+        box-sizing: border-box;
+        display: flex;
+      }
+      .wine .group .image {
+        width: 42%;
+        flex-shrink: 0;
+      }
+      .wine .group .right {
+        display: flex;
+        align-items: center;
+      }
+      .wine h2 {
+        font-size: 12px;
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: 1px;
+        margin-top: -8px;
+        font-family: 'Karla', sans-serif;
+      }
+      .specs {
+        margin: 0 0 20px;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        font-weight: 700;
+        font-size: 26px;
+        text-align: center;
+      }
+      .specs li {
+        width: 50%;
+      }
+      .specs span {
+        font-size: 17px;
+        text-transform: uppercase;
+        font-weight: 400;
+      }
+      .wine .top,
+      .wine .middle,
+      .wine .bottom {
+        opacity: 0;
+        transform: translateX(50px);
+        transition: .5s .1s opacity, transform .5s .1s;
+      }
+      .wine .middle {
+        transition-delay: .3s;
+      }
+      .wine .bottom {
+        transform: translateX(0);
+        transition-delay: .7s;
+      }
+      .wine .image {
+        transform: translateX(-100px);
+        transition: .5s .1s opacity, transform .5s;
+      }
+      #wine-1 {
+        background-color: #9ac4cc;
+      }
+      #wine-2 {
+        background-color: #e87e9a;
+      }
+      #wine-3 {
+        background-color: #d1a67e;
+      }
+      #wine-4 {
+        background-color: #77bfaf;
+      }
+      #wine-5 {
+        background-color: #d6b153;
+      }
+      amp-carousel[slide="2"] #wine-1 .copy > div,
+      amp-carousel[slide="3"] #wine-2 .copy > div,
+      amp-carousel[slide="4"] #wine-3 .copy > div,
+      amp-carousel[slide="5"] #wine-4 .copy > div,
+      amp-carousel[slide="5"] #wine-4 .copy > div,
+      amp-carousel[slide="6"] #wine-5 .copy > div,
+      amp-carousel[slide="2"] #wine-1 .image,
+      amp-carousel[slide="3"] #wine-2 .image,
+      amp-carousel[slide="4"] #wine-3 .image,
+      amp-carousel[slide="5"] #wine-4 .image,
+      amp-carousel[slide="6"] #wine-5 .image {
+        opacity: 1;
+        transform: translateX(0);
+      }
+      #click-to-scroll {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        left: 50%;
+        bottom: 85px;
+        margin-left: -15px;
+        transform: rotate(45deg);
+        border-right: 2px solid #FFDEAC;
+        border-bottom: 2px solid #FFDEAC;
+        animation: floating 2s ease-in-out infinite;
+        z-index: 10;
+      }
+      @keyframes floating  {
+          from { transform: translate(0, 0px) rotate(45deg); }
+          50%  { transform: translate(0, 15px) rotate(45deg); }
+          to   { transform: translate(0, 0px) rotate(45deg); }
+      }
+
+      /* Ratings */
+      .rating {
+        color: #FFDEAC;
+        position: relative;
+        display: inline-block;
+        margin: 5px 0 10px -2px;
+      }
+      .rating p {
+        margin: 0;
+      }
+      .rating span {
+        padding: 0 2px;
+        opacity: .25;
+      }
+      .rating .score {
+        position: absolute;
+        left: 0;
+        top: 0;
+        overflow: hidden;
+      }
+      .rating .score span {
+        opacity: 1;
+      }
+      .background-green .rating .score {
+        color: #fff;
+      }
+
+      /* Other Pairings */
+      .explore-list {
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        list-style: none;
+        margin: 15px auto;
+        max-width: 320px;
+      }
+      .explore-list a {
+        display: flex;
+        color: #fff;
+        box-sizing: border-box;
+        width: 100%;
+        height: 185px;
+        max-width: 155px;
+        justify-content: center;
+        align-items: flex-end;
+        text-align: center;
+        font-size: 19px;
+        font-weight: 700;
+        position: relative;
+        overflow: hidden;
+      }
+      .explore-list li {
+        width: calc(50% - 5px);
+        margin-bottom: 10px;
+      }
+      .explore-list p {
+        position: relative;
+        margin: 0;
+        padding: 14px;
+        width: 100%;
+        box-sizing: border-box;
+        background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.5) 100%);
+      }
+      .explore-list amp-img {
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+
+      /* Recommendations */
+      #recommendations {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+      .recommendation {
+        border-top: 1px solid #D8D8D8;
+        padding: 30px 0;
+        display: none;
+      }
+      .recommendation:nth-child(1),
+      .recommendation:nth-child(2),
+      #recommendations.show .recommendation {
+        display: flex;
+      }
+      .recommendation .rating {
+        margin-bottom: 0;
+      }
+      .recommendation .content {
+        max-width: 200px;
+      }
+      .recommendation p {
+        margin: 4px 0 0;
+        font-size: 15px;
+      }
+      .recommendation .image {
+        flex-shrink: 0;
+        margin-right: 15px;
+      }
+      .recommendation amp-img {
+        border-radius: 5px;
+        overflow: hidden;
+      }
+      .rating-box {
+        display: flex;
+        justify-content: space-between;
+        margin: 7px 0;
+        align-items: center;
+      }
+      .rating-box p {
+        margin: 0;
+      }
+      .rating-box .rating {
+        margin: 0;
+      }
+      .recommendation .rating {
+        color: #FA6754;
+      }
+      #recommendations-header {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        padding-bottom: 10px;
+      }
+      #show-all-recommendations {
+        line-height: 1;
+      }
+      #show-all-recommendations.hide {
+        display: none;
+      }
+
+    /* Other Content */
+        #wrapper-summary{
+            padding-bottom: 50px;
+        }
+        
+      /* Footer */
+      footer {
+        padding: 0 0 45px;
+        background-color: #E9705C;
+        background-image: url("https://www.sanpellegrino.com/media//usa/product-range/essenza/dark-morello/S_Pellegrino_Essenza_DarK_Morello%20_Cherry_Pomegranate_Product_Page_1920x870.jpg");
+        text-align: center;
+      }
+      .mark {
+        margin: -60px auto 20px;
+      }
+      footer form {
+        display: flex;
+        padding: 20px 0 40px;
+      }
+      footer input[type="text"] {
+        width: 100%;
+        height: 50px;
+        border-radius: 25px 0 0 25px;
+      }
+      footer input[type="submit"] {
+        width: 150px;
+        height: 50px;
+        padding: 0;
+        border-radius: 0 25px 25px 0;
+      }
+      #follow-us {
+        margin: 20px 0 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+      }
+      #follow-us a {
+        display: flex;
+        width: 50px;
+        height: 50px;
+        background-color: #fff;
+        border-radius: 50%;
+        justify-content: center;
+        align-items: center;
+      }
+      #follow-us img {
+        display: block;
+      }
+
+      @media all and (max-width: 430px) {
+        #explanation {
+            color: #FFDEAC;
+            background-position: right -25px bottom;
+            background-size: 63%
+          }
+          body {
+            background-color: #E9705C;
+          }
+      }
+
+      @media all and (max-width: 380px) {
+        #explanation {
+          background-position: right -45px bottom;
+            background-size: 71%;
+        }
+      }
+
+      @media all and (max-width: 320px) {
+        #explanation {
+          background-position: right -58px bottom;
+          background-size: 85%;
+        }
+      }
+        footer h2{
+            color: #ffffff;
+        }
+
+    </style>
+
+  </head>
+
+  <body>
+
+    <amp-state id="selected">
+      <script type="application/json">
+        {
+        "slide": 0
+        }
+      </script>
+    </amp-state>
+
+    <header [class]="selected.slide != 0 ? 'show' : 'hide'" class="hide">
+        <p><img src="https://www.sanpellegrino.com//img/logo-spellegrino-2x.png" itemprop="logo" alt="S.Pellegrino"></p>
+        <!--<p><span>S.Pellegrino</span> Fine Dinning Lovers</p>-->
+    </header>
+
+    <main>
+
+      <section id="carousel-indicators" [class]="selected.slide != 0 ? 'move-down' : ''">
+        <div class="container">
+          <ul>
+            <li on="tap:AMP.setState({selected: {slide: 0}})" tabindex="1" role="button" [class]="selected.slide == 0 ? 'current' : ''" class="current"><span></span></li>
+            <li on="tap:AMP.setState({selected: {slide: 1}})" tabindex="2" role="button" [class]="selected.slide == 1 ? 'current' : ''"><span></span></li>
+            <li on="tap:AMP.setState({selected: {slide: 2}})" tabindex="3" role="button" [class]="selected.slide == 2 ? 'current' : ''"><span></span></li>
+<!--            <li on="tap:AMP.setState({selected: {slide: 3}})" tabindex="4" role="button" [class]="selected.slide == 3 ? 'current' : ''"><span></span></li>
+            <li on="tap:AMP.setState({selected: {slide: 4}})" tabindex="5" role="button" [class]="selected.slide == 4 ? 'current' : ''"><span></span></li>
+            <li on="tap:AMP.setState({selected: {slide: 5}})" tabindex="6" role="button" [class]="selected.slide == 5 ? 'current' : ''"><span></span></li>
+            <li on="tap:AMP.setState({selected: {slide: 6}})" tabindex="7" role="button" [class]="selected.slide == 6 ? 'current' : ''"><span></span></li>-->
+          </ul>
+        </div>
+      </section>
+
+      <section id="carousel">
+        <amp-carousel layout="fill" type="slides" on="slideChange:AMP.setState({selected: {slide: event.index}})" [slide]="selected.slide">
+          <div id="intro" class="slide">
+            <div id="intro-text">
+              <!--<amp-bodymovin-animation loop="false" renderer="svg" layout="fixed" width="326" height="185" src="https://lens-templates.firebaseapp.com/assets/template-pairings/pasta.json"></amp-bodymovin-animation>-->
+              <!--<amp-img src="https://www.sanpellegrino.com/media/usa/home-page/Sanpellegrino_Essenza_Header_D_USA.jpg" layout="fixed" width="288" height="258" alt=""></amp-img>-->
+            </div>
+              <a id="click-to-scroll" on="tap:bottom-content.scrollTo(duration=400)"></a>
+          </div>
+          <div id="explanation" class="slide">
+            <div class="content">
+              <h1>Recipes that match your Essenza</h1>
+              <p>Creamy pasta provides many ways to pair sparkling water well. For the Pomegranate lovers, light-bodied reds balance a hearty, heavy pasta best. Tart or fruity sparkling water also pair well to compliment the richness of the dish.</p>
+            </div>
+          </div>
+          <div id="wine-1" class="slide wine">
+            <div class="content">
+              <div class="group">
+                <div class="image">
+                  <amp-img src="https://www.houseoftownend.com/Content/Images/Products/PELL001.png" layout="responsive" width="180" height="513" alt="Neptune Soave"></amp-img>
+                </div>
+                <div class="right">
+                  <div class="copy">
+                    <div class="top">
+                      <h1>Glass Range</h1>
+                      <h2 class="small">Sparkling Water</h2>
+                      <div class="rating">
+                        <p><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></p>
+                        <p class="score" style="width: 100%;"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></p>
+                      </div>
+                    </div>
+                    <div class="middle">
+                      <p>It’s distinct look has always been sophisticated and elegant, traditional yet modern, and always found at the best restaurants, hotels and cafés around the world.</p>
+                      <ul class="specs">
+                        <li><sup>$</sup>43.50<br><span>750 ML</span></li>
+
+                      </ul>
+                    </div>
+                    <div class="bottom">
+                      <p><a href="#" class="button">Buy Now</a></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+<!--          <div id="wine-2" class="slide wine">
+            <div class="content">
+              <div class="group">
+                <div class="image">
+                  <amp-img src="https://www.totalwine.com/media/sys_master/twmmedia/h65/h7c/8810837082142.png" layout="responsive" width="300" height="513" alt="Stepstone Merlot"></amp-img>
+                </div>
+                <div class="right">
+                  <div class="copy">
+                    <div class="top">
+                      <h1>Stepstone Merlot</h1>
+                      <h2 class="small">SoCal Winery</h2>
+                      <div class="rating">
+                        <p><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></p>
+                        <p class="score" style="width: 90%;"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></p>
+                      </div>
+                    </div>
+                    <div class="middle">
+                      <p>Watermelon, key lime, rosemary.</p>
+                      <ul class="specs">
+                        <li><sup>$</sup>35.99<br><span>750 ML</span></li>
+                        <li>13.5<sup>%</sup><br><span>ABV</span></li>
+                      </ul>
+                    </div>
+                    <div class="bottom">
+                      <p><a href="#" class="button">Buy Now</a></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="wine-3" class="slide wine">
+            <div class="content">
+              <div class="group">
+                <div class="image">
+                  <amp-img src="assets/template-pairings/wine-3.jpg" layout="responsive" width="180" height="513" alt="Wipeout Cabernet"></amp-img>
+                </div>
+                <div class="right">
+                  <div class="copy">
+                    <div class="top">
+                      <h1>Wipeout Cabernet</h1>
+                      <h2 class="small">Oceana Vineyard</h2>
+                      <div class="rating">
+                        <p><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></p>
+                        <p class="score" style="width: 80%;"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></p>
+                      </div>
+                    </div>
+                    <div class="middle">
+                      <p>Dark chocolate, cinnamon, wood, licorice..</p>
+                      <ul class="specs">
+                        <li><sup>$</sup>49.16<br><span>750 ML</span></li>
+                        <li>14<sup>%</sup><br><span>ABV</span></li>
+                      </ul>
+                    </div>
+                    <div class="bottom">
+                      <p><a href="#" class="button">Buy Now</a></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="wine-4" class="slide wine">
+            <div class="content">
+              <div class="group">
+                <div class="image">
+                  <amp-img src="assets/template-pairings/wine-4.png" layout="responsive" width="180" height="513" alt="Maria Pinot Noir"></amp-img>
+                </div>
+                <div class="right">
+                  <div class="copy">
+                    <div class="top">
+                      <h1>Maria Pinot Noir</h1>
+                      <h2 class="small">Sunset Cliffs Wine Co.</h2>
+                      <div class="rating">
+                        <p><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></p>
+                        <p class="score" style="width: 80%;"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></p>
+                      </div>
+                    </div>
+                    <div class="middle">
+                      <p>Honeysuckle, cantaloupe, vanilla.</p>
+                      <ul class="specs">
+                        <li><sup>$</sup>22.99<br><span>750 ML</span></li>
+                        <li>15<sup>%</sup><br><span>ABV</span></li>
+                      </ul>
+                    </div>
+                    <div class="bottom">
+                      <p><a href="#" class="button">Buy Now</a></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="wine-5" class="slide wine">
+            <div class="content">
+              <div class="group">
+                <div class="image">
+                  <amp-img src="assets/template-pairings/wine-5.jpg" layout="responsive" width="180" height="513" alt="Starboard Merlot"></amp-img>
+                </div>
+                <div class="right">
+                  <div class="copy">
+                    <div class="top">
+                      <h1>Starboard Merlot</h1>
+                      <h2 class="small">Nautilus</h2>
+                      <div class="rating">
+                        <p><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></p>
+                        <p class="score" style="width: 100%;"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></p>
+                      </div>
+                    </div>
+                    <div class="middle">
+                      <p>Cranberry, spice, vanilla.</p>
+                      <ul class="specs">
+                        <li><sup>$</sup>37.99<br><span>750 ML</span></li>
+                        <li>14.5<sup>%</sup><br><span>ABV</span></li>
+                      </ul>
+                    </div>
+                    <div class="bottom">
+                      <p><a href="#" class="button">Buy Now</a></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a id="click-to-scroll" on="tap:bottom-content.scrollTo(duration=400)"></a>
+          </div>-->
+        </amp-carousel>
+      </section>
+
+      <section id="bottom-content" style="padding-top: 5px">
+        <div class="container">
+                
+            <p><center>
+                <img src="https://luwkaslima.github.io/ezgif.com-gif-maker.gif">
+                    <p>Sleek Can 11.15 Fl Oz</p>
+                <div id="wrapper-summary"><p>A strong aroma of fine red fruits, accompanied by our signature gentle bubbles and characterized by intense fruit flavored notes. Pair with more flavorful dishes such as roasted vegetables, premium red meats, rich sandwiches, and chocolate desserts.</p></div>    
+                </center>
+                
+            </p>
+            <h2>AMAZING WITH:</h2>
+          <ul class="explore-list">
+            <li>
+              <a>
+                <amp-img src="http://finedininglovers.cdn.crosscast-system.com/BlogPost/l_16517_vegan-savoy-cabbage.jpg" width="230" height="185" layout="fixed" alt=""></amp-img>
+                <p>SAVOY CABBAGE</p>
+              </a>
+            </li>
+            <li>
+              <a>
+                <amp-img src="http://finedininglovers.cdn.crosscast-system.com/BlogPost/l_15668_pulled-pork-slider-apple-coleslaw-corn-cobs.jpg" width="230" height="185" layout="fixed" alt=""></amp-img>
+                <p>PULLED PORK</p>
+              </a>
+            </li>
+            <li>
+              <a>
+                <amp-img src="http://finedininglovers.cdn.crosscast-system.com/BlogPost/l_16514_brussels-sprouts-savoy-cabbage-potatoes.jpg" width="230" height="183" layout="fixed" alt=""></amp-img><br>
+                <p>BRUSSELS SPROUTS</p>
+              </a>
+            </li>
+            <li>
+              <a>
+                <amp-img src="http://finedininglovers.cdn.crosscast-system.com/BlogPost/l_18125_Salsa-Verde.jpg" width="230" height="185" layout="fixed" alt=""></amp-img><br>
+                <p>PREMIUM BEEF</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <div class="container">
+          <div id="recommendations-header">
+            <h2>OTHER FLAVOURS:</h2>
+          </div>
+          <ul id="recommendations" [class]="recommendationsShow ? 'show' : 'hide'" class="hide">
+            <li class="recommendation">
+              <div class="image">
+                <amp-img src="https://www.sanpellegrino.com/media//usa/product-range/essenza/lemon/S_Pellegrino_Essenza_Lemon_Lemon_Zest_Front.jpg" width="120" height="170" layout="fixed" alt="Playa Pinot Noir bottle"></amp-img>
+              </div>
+              <div class="content">
+                <h3 class="h2">Lemon & Lemon Zest</h3>
+                <h4>An intense citrus aroma with fine and elegant flavor, enhanced by refined bubbles.</h4>
+                <p>Pair with light-flavored dishes such as your favorite shellfish, fresh greens, and seasonal fruit.</p>
+                <div class="rating-box">
+                  <div class="rating">
+                    <p><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></p>
+                    <p class="score" style="width: 100%;"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></p>
+                  </div>
+                  <p class="price"><b>$22.99</b></p>
+                </div>
+                <p><a class="button" href="">Buy Now</a></p>
+              </div>
+            </li>
+            <li class="recommendation">
+              <div class="image">
+                <amp-img src="https://www.sanpellegrino.com/media//usa/product-range/essenza/tangerine/S_Pellegrino_Essenza_Tangerine_Wild_Strawberry_Front.jpg" width="120" height="170" layout="fixed" alt="Wipeout Cabernet bottle"></amp-img>
+              </div>
+              <div class="content">
+                <h3 class="h2">Tangerine
+& Wild Strawberry</h3>
+                <h4>An intense aroma with the citrusy zest of tangerine, balanced with wild strawberries</h4>
+                <p>Pair with medium-flavored dishes such as sautéed vegetables, white meat, or freshly made pasta.</p>
+                <div class="rating-box">
+                  <div class="rating">
+                    <p><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></p>
+                    <p class="score" style="width: 100%;"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></p>
+                  </div>
+                  <p class="price"><b>$49.16</b></p>
+                </div>
+                <p><a class="button" href="">Buy Now</a></p>
+              </div>
+            </li>
+            <li class="recommendation">
+              <div class="image">
+                <amp-img src="assets/template-pairings/wine-rec-3.jpg" width="120" height="170" layout="fixed" alt="Stepstone Rosé bottle"></amp-img>
+              </div>
+              <div class="content">
+                <h3 class="h2">Stepstone Rosé</h3>
+                <h4>SoCal Winery</h4>
+                <p>Watermelon, key lime, rosemary.</p>
+                <div class="rating-box">
+                  <div class="rating">
+                    <p><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></p>
+                    <p class="score" style="width: 90%;"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></p>
+                  </div>
+                  <p class="price"><b>$35.99</b></p>
+                </div>
+                <p><a class="button" href="">Buy Now</a></p>
+              </div>
+            </li>
+          </ul>
+          <a id="show-all-recommendations" on="tap:AMP.setState({recommendationsShow: !recommendationsShow})" [class]="recommendationsShow ? 'hide' : 'show'" class="show"><b>Show All</b></a>
+        </div>
+      </section>
+
+      <footer>
+        <div class="container">
+          <amp-img src="https://www.sanpellegrino.com/img/star-2x.png" class="mark" width="120" height="120" layout="fixed" alt="Essenza Pomegranate Experience"></amp-img>
+          <h2>Stay in Touch</h2>
+          <form target="_top" action="#">
+            <input type="text" name="email" placeholder="Email Address">
+            <input type="submit" value="Submit">
+          </form>
+          <h2>Follow Us</h2>
+          <ul id="follow-us">
+            <li><a href="" target="_blank"><amp-img src="https://cdn.lrb.co.uk/assets/sm-icons/smpage/instagram.svg" width="22" height="22" alt="Follow on Twitter"></amp-img></a></li>
+            <li><a href="" target="_blank"><amp-img src="https://www.ganord.be/images/social/facebook.svg" width="22" height="22" alt="Follow on Facebook"></amp-img></a></li>
+            <li><a href="" target="_blank"><amp-img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAjVBMVEX///8KBQYAAAAGAAD6+vpBP0AIAQPw8PD8/Pzh4eHm5ub19fVtbGz39/eGhYWQj4+XlpbW1tbEw8Ofnp6pqKh/fn5QT09nZmbr6+uvrq68u7teXV2JiIi1tLTAwMAwLi/Ozc0nJSV3dnYdGhtXVVVHRUU9OzvR0dEYFBUpJiccGRkvLS1MSksSDg4iHx+WS+onAAAIsElEQVR4nO2daWOqOhCGdVAQXBH3ldpqV/3/P+8CbqgQEpgJ4dw8305Pa3hNSGZLUqtpNBqNRqPRaDQajUaj0Wg0/19atvvph7hO2Y+CjrPoL7fwwH43t8t+LCRam50RaTLqMc4/+ph3y368wsxWoZJ6MqHMcbVHrLt86rokkR1ujWuP8mFz4ExTey+GCdDj+bTW4Ah96kcWojHm0XfRuM78uFE42pWamxa8+s5j9eCyPqwb9J9Rhw9ZD89BYykiMCCYclI/zO+cJyv4ZLTozfBVMHDrYvoijUc/6aMs73T5smDJarJeb5NIScYT7MBrN66eP8iaT25rjQmsOdcFeLcIJT3SyaMv0vgbn0q6i0l8KWVPpD2ow5esXvzLKzDsxuuKZ80/Anlm7L9OzEaPQaPwJaUXu4f8AsOh+Bc8peM1H+WFCpmTrR81Cu8SerHxXURg+JTQ377IC37Mtgp2l8noSN6Lrd+CAiM7LkH3lt3u1TakH6iTwgJTVLNXO//WLHUv7mgE1mHIbnccm3J/KCWOqARmWdzHWMOUvei+zA9IAjsZDdsP3yzUyVzOI00XZhvc88eGyXwQopcwaxpNaBnYi2dePokEPlnU3aH/0vTbc9MAr79UnJdmUDAeRlx7FJiqL29l+zVSYsAcXSDRPBrz/mejvzBi9/qS2UlNo0c8WrkcpmyB08vnt+d/Fzf4dWJdJDYNO1yFHlEXRhO/6+2vpiocWy9tpwwf2DcQBRJ1YR3Ga295vLuJZtIsuUppG+qIUyqVNVOHx4ByYlAu1eMGxPnmRKXw6ZEHSY1PUxs30V5GorXwRWByPC5dYRgYwTHhqHyKp6edJre+ZLXOE23OppWRnEASOElpnqkwWPw7r9OvKEMZXQh/ac2zRmn0l8fCc+pYgkJopjafGb1MiMQKImEmhUP6UOtlNw/bQt04K1cg12IMMC7wNm7IFcI3Kxu+5mofYJFbYZ9aIWyZ6X6Xr32ASV7fnz1bIwg8sU1oizc+FAzVfEHx4lHgDIFZj/XD/QD3xIgIXdr1HiAzOpi1IMYw8ljjFmkXQka4O0TIswF4E7XjEoMIWCQ6hAWfQFgj51SWD74x9SX4CAA/IwGFPqFCdu7+hrjZCGAMuKP/hHa3yfES5v2SAWDq8ykk7MPMjMWVHLUfUaXSr8fTkYTvIWw4FQ5yPkPQkZNFpsFKaHgzC0yQniEQuctIT9KthyZwCixQ4VI/F4F2NgzDqU2UNgyb5lZYcFE2w6rlQdrS2yCz2sDgVlj7KDqSQpEw9dwkK190veUGTH6FDsZIimqz96vF8+tftIQmFeAfpVyxDC4uFeir+ed9Ld6SKfwSUFjDTJ2cZcKh0/MWvl1rkin8FVGIb1sZt70T2J98JTUGnEyRFaMkuI22C5LyQ4gwKqMTmdENJyKEgyo+mfFBhHiEMzmlry7M4vxkyJLRNGRH2V4hD09jYgBXqmFp7IaxX6zSmsFIqMXZRybz+tbfZCYWPpzLYdhpRuSsn/9NGt3EhXOxuEYwAIyxH/6gwHYIyWTVPl+426PhcJ30BoaMqgIUOEOJDzEa83k7rspwR2mIapPp4d5uKKeahwDuClG+LLeCcIeDJVRK0MA50dQqtcbHgXdegdWyRe+k1eklIKk0EhsR9zdX6ql0RHaFYMVKpSKQlSFOtFMhFkmsXpQtraQ7DaLNEKSIxWi4C7/UgTOCcaNKsYszoqd8VMixvwAiFT0hArVtaiC8DXRWHcc3QsAovVIx41Q0JxNSrTWRMwj1ANVWchIMyLN1sErLPmdJ4jOFK07kkXM3VousKgQbE3KeM2NVJQmc/9gyuyISC2xudSsh0YQCJ2JWQmLOmfRCFQZqnuU+hkVzfgUiYtVsCbSoN2IVpfCGzzBpqrRG7uJuBr7KEtN3NIvQ6qirseA8c8M/KuoTww+OwFr0NqroTwkHaBhYPcLi17yIRhEz6HpH1TSKhbp5WG+V0mjk9ZtYuCqFi3HOr9r0dpPmnb/JSZlZ1SjiVdzw4RllBCJ1ocIRfkCaSNWNnGKthcqGv+ENR6C6w5S7CCoTRStMcZyKCMoN9PkxMc9VJTqxuRgIrv0dFd9EOCIKVHI6xXJ8ryiXwhDdiJeJrZCpFoJjkD6g2CavAudwpZL3JAkSBGpJBZBxFCAnkCupnY0ynq9Jcvp2iCr7FFDX+kfUKK2FA5nA6KqvsvVl3s5REAUyGBQLRRzrUHLkO099lyDl5tpIX8Ir9rY8Ew4oIsAJzMtK0iRcdEBEt1fOUKWeZeI4nRIiw5Jv3ZyNZSfb0H3CTBqjg0yRnAcKIOMMvmWNVnijcSiyccdSkjUch+cSMpySj1bAqJopQntOG1NV4Wpf0igH0aVaIqxJRynkODwIF7v5bwvs7minmdKHKLXfX7bA4RvxWljyLOpO6NdBuTeEP2J/kFulsJV5P/gTn/T6RA+zRGVxkOBVYF/Yx4/Tl1GjCPh1h3x013spXiHN3aCZtNdLSU4vbEuYRM9XQ0rxdw3pEYuu6y0pTwB+AucCO14c3+sc5BZdYl1CmETXmtn+ZhGwnnv98XRbQkkpUAUNW0FXvZdfLWvCN5mlPVCh/Jd2EXTI7ehsfRPigNPwVKZGgBNaxWg667eyNBqAucGHqfGnDI2BvoG8mLYUv+FZX19uzN6fSF3gg/5DL8TLxJaWOwP4kvT+PdP2TAlOfLA+IJfCCjGckHZk8A2aq5ITLjVnRaYxvH5GwvLHwSLsSOTSi/CM6eaozITgIzMPNZsdnvje9Moenc/YgwOKXR7dprNclxnlTceaLwu6U+GfNwdlJ8qYNFxvmstrPF+EdOj7JUaw+XEWqz23d2xeLnnaj+flp6lFaNibQec7Fgkw4pPt/eqqgL/dYOOg7pmXiWUPR4Pdx+H0oCmYdt+aH52Vt3adskpg8Gm1Gm1rNnNmVrvRqmyPaTQajUaj0Wg0Go1Go9FoNBpN7T/6u6MBH20M9AAAAABJRU5ErkJggg==" width="22" height="22" alt="Follow on Instagram"></amp-img></a></li>
+            <li><a href="" target="_blank"><amp-img src="https://cdn.onlinewebfonts.com/svg/img_90836.png" width="22" height="22" alt="Follow on YouTube"></amp-img></a></li>
+            <li><a href=""><amp-img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB4Rv9wK1QulD0TtSC-7G5Er0U9zBUV2JEwFsC7gVT3GtJxluavA" width="22" height="22" alt="Email Us"></amp-img></a></li>
+          </ul>
+        </div>
+      </footer>
+
+    </main>
+
+  </body>
+
+</html>
 
