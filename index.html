@@ -307,6 +307,12 @@
         background-size: cover;
         position: relative;
       }
+        #intro .content{
+            background-color: rgba(255,255,255,0.6);
+            color: #000000;
+            padding: 25px 20px;
+            text-align: center;
+        }
       #intro-text {
         position: relative;
         width: 306px;
@@ -722,12 +728,16 @@
             <div id="intro-text">
               <!--<amp-bodymovin-animation loop="false" renderer="svg" layout="fixed" width="326" height="185" src="https://lens-templates.firebaseapp.com/assets/template-pairings/pasta.json"></amp-bodymovin-animation>-->
               <!--<amp-img src="https://www.sanpellegrino.com/media/usa/home-page/Sanpellegrino_Essenza_Header_D_USA.jpg" layout="fixed" width="288" height="258" alt=""></amp-img>-->
+            <div class="content">
+                <h1>Dark Morello Cherry & Pomegranate</h1>
+              <p>Scrow down to see more</p>
+            </div>
             </div>
               <a id="click-to-scroll" on="tap:bottom-content.scrollTo(duration=400)"></a>
           </div>
           <div id="explanation" class="slide">
             <div class="content">
-              <h1>Recipes that match your Essenza</h1>
+              <h1>Pair Dark Morello Cherry & Pomegranate with this recipe to enhance your taste experience</h1>
               <p>Creamy pasta provides many ways to pair sparkling water well. For the Pomegranate lovers, light-bodied reds balance a hearty, heavy pasta best. Tart or fruity sparkling water also pair well to compliment the richness of the dish.</p>
             </div>
           </div>
@@ -750,7 +760,7 @@
                     <div class="middle">
                       <p>It’s distinct look has always been sophisticated and elegant, traditional yet modern, and always found at the best restaurants, hotels and cafés around the world.</p>
                       <ul class="specs">
-                        <li><sup>$</sup>43.50<br><span>750 ML</span></li>
+                        <li><sup>$</sup>43.50<br><span>12 Pack</span></li>
 
                       </ul>
                     </div>
@@ -894,13 +904,14 @@
         <div class="container">
                 
             <p><center>
+                <p><spam>Dark Morello Cherry & Pomegranate</spam></p>
+                <div id="wrapper-summary"><p>A strong aroma of fine red fruits, accompanied by our signature gentle bubbles and characterized by intense fruit flavored notes.</p>
                 <img src="https://luwkaslima.github.io/ezgif.com-gif-maker.gif">
-                    <p>Sleek Can 11.15 Fl Oz</p>
-                <div id="wrapper-summary"><p>A strong aroma of fine red fruits, accompanied by our signature gentle bubbles and characterized by intense fruit flavored notes. Pair with more flavorful dishes such as roasted vegetables, premium red meats, rich sandwiches, and chocolate desserts.</p></div>    
+                <p>Pair with more flavorful dishes such as roasted vegetables, premium red meats, rich sandwiches, and chocolate desserts.</p></div>    
                 </center>
                 
             </p>
-            <h2>AMAZING WITH:</h2>
+            <h2>Enhance Moments with the people you love the most with these recipes:</h2>
           <ul class="explore-list">
             <li>
               <a>
@@ -933,7 +944,7 @@
       <section>
         <div class="container">
           <div id="recommendations-header">
-            <h2>OTHER FLAVOURS:</h2>
+            <h2>OTHER FLAVORS YOU MIGHT LIKE:</h2>
           </div>
           <ul id="recommendations" [class]="recommendationsShow ? 'show' : 'hide'" class="hide">
             <li class="recommendation">
@@ -998,7 +1009,7 @@
 
       <footer>
         <div class="container">
-          <amp-img src="https://www.sanpellegrino.com/img/star-2x.png" class="mark" width="120" height="120" layout="fixed" alt="Essenza Pomegranate Experience"></amp-img>
+          <amp-img src="https://www.sanpellegrino.com/img/star-2x.png" class="mark" width="110" height="100" layout="fixed" alt="Essenza Pomegranate Experience"></amp-img>
           <h2>Stay in Touch</h2>
           <form target="_top" action="#">
             <input type="text" name="email" placeholder="Email Address">
